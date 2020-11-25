@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class UserServlet extends BaseServlet {
     private UserService userService = new UserServiceImpl();
 
+    //登录
     public String login(HttpServletRequest req, HttpServletResponse resp){
         String username = req.getParameter("username");
         String password = req.getParameter("password");
@@ -26,6 +27,7 @@ public class UserServlet extends BaseServlet {
         return "index.jsp";
     }
 
+    //注册
     public String register(HttpServletRequest req, HttpServletResponse resp){
         User user = new User();
         user.setUsername(req.getParameter("username"));

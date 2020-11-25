@@ -75,7 +75,7 @@
 	<div class="clear"></div>
 	<!--- footer --->
 	<div class="footer">
-		<p>Made by xian</p>
+		<p>Made by XYBB</p>
 	</div>
 	<div style="display: none">
 		<script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540'
