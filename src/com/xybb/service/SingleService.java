@@ -6,9 +6,6 @@ import java.util.List;
 
 public interface SingleService {
 
-
-//    List<Single> querySinglePaper(String paper);
-
     List<Single> queryByPaper(String paper);
 
     List<String> getSubjectList();

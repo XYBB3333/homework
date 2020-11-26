@@ -35,7 +35,7 @@ public class SingleServlet extends BaseServlet{
         //返回科目.
         
         request.setAttribute("paper",paper);
-        return "WEB-INF/Exam/paper1.jsp";
+        return "WEB-INF/Exam/paper.jsp";
     }
 
 
